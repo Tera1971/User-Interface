@@ -67,13 +67,19 @@ h1, h2, h3, h4, h5 {
 
 nav{
 	border: 2px solid red;
-display: inline-block;
-text-align: center;
+	display: inline-block;
+	width: 19%;
+	text-align: center;
 }
+nav a {
+	
+	width: 19%;
+	text-align: center;
+  }
 .header-container{
 	border: 2px solid rgb(110, 73, 73);
 	display: inline-block;
-	text-align: center;
+	padding: 20px;
 }
 .features{
 	border: 2px solid red;

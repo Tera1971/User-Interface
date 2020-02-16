@@ -65,15 +65,39 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-.navigation{
+nav{
+	border: 2px solid red;
 display: inline-block;
-text-align: justify;
+text-align: center;
+}
+.header-container{
+	border: 2px solid rgb(110, 73, 73);
+	display: inline-block;
+	text-align: center;
 }
 .features{
+	border: 2px solid red;
+	border-top: 2px dashed black;
 	display: inline-block;
 	column-count: 2;
+	font-size: 15px;
+	padding: 20px;
 }
 .services{
 	display: inline-block;
 	column-count: 3;
+	font-size:15px;
+	padding: 20px;
+	border-bottom: 2px dashed black;
+}
+.middle-img{
+	width: 95%;
+	padding: 20px;
+	text-align: center;
+}
+.contact{
+	padding: 20px;
+}
+h3{
+	text-align: center;
 }

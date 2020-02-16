@@ -64,3 +64,16 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.navigation{
+display: inline-block;
+text-align: justify;
+}
+.features{
+	display: inline-block;
+	column-count: 2;
+}
+.services{
+	display: inline-block;
+	column-count: 3;
+}

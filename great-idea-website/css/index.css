@@ -50,7 +50,7 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
 	box-sizing: border-box;
-	font-family: 'Anton', sans-serif; 
+	
 }
 
 html, body {
@@ -59,7 +59,7 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Great Vibes', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }

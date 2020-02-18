@@ -66,19 +66,20 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 nav{
-	border: 2px solid red;
-	display: inline-block;
-	width: 19%;
-	text-align: center;
+	padding: 30px;
+	text-align: center;	
 }
-nav a {
-	
-	width: 19%;
-	text-align: center;
-  }
+a{
+	display: inline-block;
+	width: 10%;
+	margin: 0 2%;
+	color: gray;
+	text-decoration: none;
+}
+
 .header-container{
 	border: 2px solid rgb(110, 73, 73);
-	display: inline-block;
+	display: block;
 	padding: 20px;
 }
 .features{

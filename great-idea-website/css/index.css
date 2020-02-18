@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 nav{
-	padding: 30px;
+	padding: 20px;
 	text-align: center;	
 }
 a{
@@ -77,14 +77,43 @@ a{
 	text-decoration: none;
 }
 
-.header-container{
-	border: 2px solid rgb(110, 73, 73);
-	display: block;
+/*.header-container{
+	display: inline;
 	padding: 20px;
+}*/
+.intro{ 
+	margin: 20%;
+}
+.header-container div{
+	margin: 95px;
+	display: inline-block;
+	padding: 15px;
+	padding-left: 30px;
+}
+h1{
+	font-size: 70px;
+	padding: 15px;
+	align-items: center;
+}
+.intro button{
+	align-items: center;
+	font-size: 15px;
+	padding: 10px;
+	
+}
+.code-image{
+	display: inline;
+		margin: 55%;
+		align-items: center;
+	}
+	
+
+h2{
+	font-size: 20px;
 }
 .features{
-	border: 2px solid red;
-	border-top: 2px dashed black;
+	
+	border-top: 2px solid grey;
 	display: inline-block;
 	column-count: 2;
 	font-size: 15px;
@@ -95,7 +124,7 @@ a{
 	column-count: 3;
 	font-size:15px;
 	padding: 20px;
-	border-bottom: 2px dashed black;
+	border-bottom: 2px solid grey;
 }
 .middle-img{
 	width: 95%;

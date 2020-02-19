@@ -87,16 +87,15 @@ a{
 a:hover{
 	color:white;
 }
-/*.header-container{
-	display: inline;
-	padding: 20px;
-}*/
+
 .intro{ 
 	margin: 20%;
+	
 }
 .header-container div{
 	margin: 95px;
 	display: inline-block;
+	vertical-align: top;
 	padding: 15px;
 	padding-left: 30px;
 }
